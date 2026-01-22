@@ -20,7 +20,6 @@ export async function GET(req: Request) {
   }
 
   const jsonResponse: IOpenWeatherResponse = await res.json();
-  console.log(jsonResponse);
 
   return NextResponse.json(jsonResponse);
 }
