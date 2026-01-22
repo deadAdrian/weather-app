@@ -97,14 +97,14 @@ export default function Home() {
 
   return (
     <div
-      style={{ backgroundColor: '#a3a9e0ff' }}
-      className="flex w-full h-full items-center justify-center"
+      style={{ backgroundColor: '#a3a9e0ff', overflowY: 'auto', minHeight: '100dvh'}}
+      className="flex w-full items-center justify-center"
     >
       <main
         className="flex flex-col items-center justify-between"
         style={{
           width: '100%',
-          margin: '0px 20px',
+          margin: '20px 20px',
           minWidth: '300px',
           maxWidth: '600px',
           backgroundColor: '#E0DAA3',
