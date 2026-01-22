@@ -78,4 +78,10 @@
       background-color: red;
     }
   }
+
+  @media (max-width: 407px) {
+    .weather-form-dropdown__list{
+      margin-top: 24px;
+    }
+  }
 }
